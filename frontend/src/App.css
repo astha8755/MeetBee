@@ -1,7 +1,7 @@
 .landingPageContainer {
   width: 100vw;
   height: 100vh;
-  background: url("/public/background.png");
+  background: url("/public/image.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -93,4 +93,10 @@
   width: 30vw;
   height: auto;
   border-radius: 20px;
+}
+
+.landing-img{
+   box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  display: flex;
 }

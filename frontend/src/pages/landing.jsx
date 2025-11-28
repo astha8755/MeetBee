@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className='landingPageContainer'>
             <nav>
                 <div className='navHeader'>
-                    <h2>Apna Video Call</h2>
+                    <h2  style={{  color: "#FF9839"}}>MeetBee</h2>
                 </div>
                 <div className='navlist'>
                     <p onClick={() => {
@@ -39,9 +39,9 @@ export default function LandingPage() {
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
                 </div>
-                <div>
+                <div className='landing-img'>
 
-                    <img src="/mobile.png" alt="" />
+                    <img src="/image2.png" alt="" />
 
                 </div>
             </div>
